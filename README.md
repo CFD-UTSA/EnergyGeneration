@@ -10,7 +10,7 @@ The scope of this project will focus on analyzing the sustainability of the Rene
 
 Hypothesis:
 
-It is hypothesized that due to the increase in the availability of the Renewable Energy sources, the sustainability of them have improved significantly cost wise. Also due to increase in the Renewable Energy sources a drop in CO2 emissions must occur locally.
+It is hypothesized that due to the increase in the availability of the Renewable Energy sources, the sustainability of them have improved significantly cost wise. Also, due to increase in the Renewable Energy sources a drop in CO2 can occur.
 
 Analysis:
 
