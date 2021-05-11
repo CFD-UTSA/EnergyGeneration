@@ -1,12 +1,26 @@
-# Final Project: Energy Generation Technology's Cost & Performance Study
+Final Project Information:
 
-For the final project, energy generation technologies will be compared from the data available on the OpenEI website. Link: https://openei.org/apps/TCDB/download-data.html I am interested in the “Generation data” file, it was updated last in 2015.Variables for display are extracted as published from public reports cited. Additional data not directly displayed but relevant to the estimates are collected and stored in the database for reference. Examples of these are plant scale, resource quality, dollar year used, etc. The US Department of Energy (DOE) applied energy R&D, including the Office of Energy Efficiency and Renewable Energy (EERE) covers a wide variety of applications, so methodology necessarily varies by sector and technology specifics
+Introduction:
 
-The dataset in this file contains different energy generation technologies’ (Renewable and Fossil Fuel) data for present-day as well as potential improvements about their operating cost, variable cost, capacity factor, thermal efficiencies, lead time, asset life, and CO2 emissions per technology. 
+Due to increase in the climate change problems, there has been an increase in need to switch to renewable energy sources from the non-renewable energy sources to curb the greenhouse gas (CO2) emissions. 
 
-There are a total of 10302 rows and 63 columns of data for a total data of over 400000 datapoints. The file consists of many missing data so data manipulation will be performed extensively to obtain the data required for analysis. Data will be analyzed extensively across the parameters mentioned above and many visualization plots will be plotted to visualize to compare the differences. 
+Scope:
 
-Hypothesis: Using levelized cost calculation, compare to see which technology have smaller breakeven values. Analyze the associated fixed andvariable operating cost of the technology. Plot and compare the capacity factor of each technology. Compare and plot the thermal efficiency, and how much CO2 is generating per megawatt hours. Finally, plot how many years it potentially takes to build each technology and cross compare it with the lifetime of asset. Lastly, using all this data, to determine if renewable energy can replace the fossil fuel energy.
+The scope of this project will focus on analyzing the sustainability of the Renewable Energy Sources and compare the CO2 emissions data in a location with concentration of Renewable Energy Sources versus a location with more Non-Renewable sources. Also, visualize the changes in air temperature induced by greenhouse gases on a map.
 
-Further compare the SW and NE of United States with the amount of CO2 concentration as NE is more concentrated with Non-Renewable Energy plants while SW is more Renewable Energy plants.
+Hypothesis:
 
+It is hypothesized that due to the increase in the availability of the Renewable Energy sources, the sustainability of them have improved significantly cost wise. Also due to increase in the Renewable Energy sources a drop in CO2 emissions must occur locally.
+
+Analysis:
+
+It is desired to investigate the levelized cost of energy to determine the sustainability of the plant. 
+Plot the associated fixed operating cost and variable operating cost of each technology. 
+Plot and analyze the thermal efficiency, and how much CO2 is generating per megawatt hours to investigate which technology us sustainable.
+Furthermore, the yearly data of CO2 emissions at two locations, where Renewable Energy source is dominant versus location where Non-Renewable Energy source is dominant, will be investigated to see if there are any short-term changes in the emissions.
+
+Code Capabilities:
+
+Energy generation technologies will be compared from the data available on the OpenEI website. Link: https://openei.org/apps/TCDB/download-data.html The “Generation data” file will be used for this study. It is a CSV file last updated in 2015. 
+The CO2 emissions data will be extracted directly from the openaq website and no download will be necessary.
+Further, the satellite image will be displayed for visualization of the Temperature changes at those locations.
