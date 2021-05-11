@@ -22,5 +22,6 @@ Furthermore, the yearly data of CO2 emissions at two locations, where Renewable 
 Code Capabilities:
 
 Energy generation technologies will be compared from the data available on the OpenEI website. Link: https://openei.org/apps/TCDB/download-data.html The “Generation data” file will be used for this study. It is a CSV file last updated in 2015. 
-The CO2 emissions data will be extracted directly from the openaq website and no download will be necessary.
-Further, the satellite image will be displayed for visualization of the Temperature changes at those locations.
+The CO2 emissions data will be extracted directly from the openaq website.https://openaq.org/#/
+The satellilte data is directly extracted from the NASA's website for the surface temperature through: https://data.giss.nasa.gov/gistemp/
+Further, the satellite image will be displayed for visualization of the Temperature changes across US.
